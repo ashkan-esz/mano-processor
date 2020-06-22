@@ -1,0 +1,21 @@
+vsim App
+
+add wave clk
+add wave TT
+add wave PC_out
+add wave AR_out
+add wave memory_in
+add wave memory_out
+add wave IR_out
+add wave DD
+add wave DR_out
+add wave AC_out
+add wave TR_out
+add wave II
+add wave EE
+add wave CC_out
+add wave SS
+
+
+force clk 0,1 {50} -r 100
+run 12500
